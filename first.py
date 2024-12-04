@@ -7,3 +7,4 @@ if response.status_code == 200:
     print('Response Content:', response.json())
 else:
     print('Request failed with status code:', response.status_code)
+    
