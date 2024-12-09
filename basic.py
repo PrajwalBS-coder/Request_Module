@@ -3,4 +3,4 @@ import requests
 # print(r.cookies)
 payload = {'Name': 'Jhon', 'Password': 'Prajwal'}
 r = requests.get('https://httpbin.org/get', params=payload)
-print(r.url)
+print(r.text)
